@@ -1,4 +1,4 @@
-import git
+yimport git
 from imgaug import augmenters as iaa
 import numpy as np
 import matplotlib.pyplot as plt
@@ -20,7 +20,7 @@ from sklearn.model_selection import train_test_split
 
 
 
-path = 'C:\\Users\\HP\\PycharmProjects\\IP\\Traffic Data'
+path = 'Enter your path'
 clone = 'https://github.com/BodduRaviteja/UdacitySimulatorTrack.git'
 g = git.Git(path).clone(clone)
 
